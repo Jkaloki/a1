@@ -1,0 +1,29 @@
+header{/*styling the header section of the web page*/
+  background-color: #996600;/*set the background-color of the web page*/
+  padding: 30px;/*set the padding of the web page in the header section*/
+  text-align: center;/*aligning text on the header section to the center*/
+  font-size: 35px;/*setting the font size os the text written on the header*/
+  color: white;/*setting the text color*/
+}/*closing the styling of the header section*/
+nav {/*opening the styling of the navigation section of the web page*/
+  float: left;/*setting where the navigation section will be on the web page*/
+  width: 9%;/*setting the width*/
+  height: 300px;/*setting the height*/
+  background: #d1b8d1;/*setting the background-color of the navigation sectionof the web page*/
+  padding: 20px;/*setting the padding*/
+}/*closing the styling of the navigation section of the web page*/
+nav ul {/*opening the styling of the navigation buttons on the web page*/
+  list-style-type: none; /*to remove bullets from the navigation buttons*/
+  padding: 0;/*To move the navigation buttons to the left*/
+}/*closing the styling of the navigation buttons on the web page*/
+section:after { /* after is used to allow the insertion of content*/
+  content: "";/* For the <section> to be able to fit well even when the content is small*/
+  display: table;/*Describes the manner in which the <section> part of the web page should be displayed*/
+  clear: both;/*Not to allow floating elements on the left or the right side*/
+}/*closing the styling of the section part of the web page*/
+footer {/*opening the styling of the footer*/
+  background-color: #996600;/*setting the background-color of the footer*/
+  padding: 10px;/*setting the padding of the footer*/
+  text-align: center;/*setting the position of the text in the footer*/
+  color: white;/*setting the text color of the footer*/
+}/*closing the styling of the footer*/
